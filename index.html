@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatTab X</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07111b;
+        --card: rgba(14, 25, 39, 0.92);
+        --line: rgba(255, 255, 255, 0.08);
+        --text: #f5fbff;
+        --muted: #8ea2b5;
+        --accent: #1d9bf0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(29, 155, 240, 0.22), transparent 34%),
+          linear-gradient(180deg, #050b12 0%, #091522 100%);
+        color: var(--text);
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      .card {
+        width: min(720px, 100%);
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 32px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: 40px;
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 16px;
+        color: #04111d;
+        background: linear-gradient(135deg, var(--accent), #4fb7ff);
+        text-decoration: none;
+        padding: 12px 18px;
+        border-radius: 999px;
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <h1>ChatTab X</h1>
+      <p>Official privacy and policy pages for the ChatTab X Chrome extension.</p>
+      <a href="./privacy-policy.html">Open Privacy Policy</a>
+    </main>
+  </body>
+</html>
